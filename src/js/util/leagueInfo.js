@@ -106,7 +106,7 @@ export async function setLinkSource(elementId, userID1 = null, userID2 = null) {
 }
 
 export function getLeagueURL() {
-    const leagueURL = 'https://dgatanis.github.io/testrepo';
+    const leagueURL = 'https://dgatanis.github.io/CrushCitiesFFL';
     let baseURL = new URL(leagueURL);
     if (!baseURL.pathname.endsWith('/')) {
         baseURL.pathname += '/';  // Ensure the trailing slash
